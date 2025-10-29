@@ -23,8 +23,8 @@ include = [
 [tool.poetry.dependencies]
 cffi = ">=1.17"
 deprecated = "^1.2"
-numpy = "^1.0"
-pandas = "^2.2"
+numpy = "^2.0"
+pandas = "^2.0"
 python = "^3.10"
 tqdm = "^4.67"
 xarray = "*"
