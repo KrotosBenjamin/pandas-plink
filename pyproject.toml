@@ -47,6 +47,9 @@ include = [
   { path = "pandas_plink/*.so",  format = "wheel" }
 ]
 
+[tool.poetry.packages]
+include = "pandas_plink"
+
 [tool.poetry.dependencies]
 python = ">=3.11,<3.15"
 
