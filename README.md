@@ -1,4 +1,4 @@
-# pandas-plink
+# pandas-plink-ng
 
 > [!IMPORTANT]
 > This repository is a fork of [pandas-plink](https://github.com/limix/pandas-plink) and is maintained by [Kynon JM Benjamin](https://github.com/KrotosBenjamin). All credit for the original package belongs to Danilo Horta and the upstream contributors.
