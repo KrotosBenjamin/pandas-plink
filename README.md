@@ -1,5 +1,12 @@
 # pandas-plink
 
+> [!IMPORTANT]
+> This repository is a fork of [pandas-plink](https://github.com/limix/pandas-plink) and is maintained by [Kynon JM Benjamin](https://github.com/KrotosBenjamin). All credit for the original package belongs to Danilo Horta and the upstream contributors.
+
+Original project repository: https://github.com/limix/pandas-plink
+
+Only difference so far: relaxed NumPy requirement (now supports NumPy ≥2.0).
+
 Pandas-plink is a Python package for reading [PLINK binary file format](https://www.cog-genomics.org/plink2/formats)
 and realized relationship matrices (PLINK or GCTA).
 The file reading is taken place via [lazy loading](https://en.wikipedia.org/wiki/Lazy_loading), meaning that it saves up memory by actually reading only the genotypes that are actually accessed by the user.
