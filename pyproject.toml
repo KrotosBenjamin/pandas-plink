@@ -47,7 +47,7 @@ include = [
   { path = "pandas_plink/*.so",  format = "wheel" }
 ]
 
-[tool.poetry.packages]
+[[tool.poetry.packages]]
 include = "pandas_plink"
 
 [tool.poetry.dependencies]
